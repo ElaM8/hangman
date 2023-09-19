@@ -16,17 +16,26 @@ public class WordUtilities {
     // Initialization block
     // is static and runs when the class is loaded
 
+    // this needs to be static because we need to remember what words have been given and which are removed from the list of available words
+
     static {
         words.add("accoutrement");
         words.add("bedraggled");
         words.add("conscience");
-        words.add("delirious");
+        words.add("delirium");
         words.add("equilibrium");
         words.add("epicentre");
+        words.add("fulcrum");
+        words.add("flabbergasted");
+        words.add("fictioneering");
+        words.add("glitch");
+        words.add("garrulous");
+        words.add("gregarious");
+        words.add("gesticulate");
+        words.add("hierarchical");
         words.add("nomenclature");
         words.add("Wednesday"); // capitalisation!!
         words.add("ovum"); // level of difficulty!!
-        words.add("hierarchical");
     }
 
     public static String selectWord() {

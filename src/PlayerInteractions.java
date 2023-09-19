@@ -6,8 +6,8 @@ public class PlayerInteractions {
     private Scanner scanner;
 
     String[] userGuessOptions = new String[]{
-            "Guess a character in the word",
             "Guess the word and escape the hangman",
+            "Guess a character in the word",
             "Rage quit"
     };
     // this doesnt need to be an array list. Its fixed.
@@ -22,6 +22,9 @@ public class PlayerInteractions {
         this.name = name;
     }
 
+    public void printWelcome() {
+        System.out.println("Welcome Traveller. What name shall I give the executioner?");
+    }
     public void printGreeting() {
         System.out.println("Thanks, " + getName() + ". Ready or not...Here comes your word...");
     }
